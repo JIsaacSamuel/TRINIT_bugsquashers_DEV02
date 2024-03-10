@@ -3,6 +3,8 @@ In this project we develop an interactive online platform that connects language
 teachers for personalized online lessons by offering a platform where learners can choose a
 tutor based on their target language, fluency and budget.
 
+[Demo video](https://drive.google.com/file/d/1sX23WuZjGT2kM1D-lnrDzLd_cJu3dToz/view?usp=sharing)
+
 To get started, clone this repositry in your local machine.
 
 ## Pre-requisite

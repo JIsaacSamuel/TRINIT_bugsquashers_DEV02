@@ -1,0 +1,73 @@
+/* CourseSearchForm.css */
+
+.course-search-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px; /* Adjust based on your design needs */
+    margin: 0 auto; /* Center the form */
+    padding: 20px;
+    background-color: #f0f0f0; /* Light background color */
+    font-family: Arial, sans-serif; /* Example font */
+   }
+   
+   .course-search-form-container h2 {
+    margin-bottom: 20px; /* Space between the title and the form */
+   }
+   
+   .course-search-form-container input,
+   .course-search-form-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px; /* Space between inputs and select */
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Rounded corners for inputs and select */
+   }
+   
+   .course-search-form-container button {
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px; /* Rounded buttons */
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px; /* Space between buttons */
+   }
+   
+   .course-search-form-container button:hover {
+    background-color: #0056b3; /* Button hover color */
+   }
+   
+   .course-search-form-container .course-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px; /* Space between courses */
+    border: 1px solid #ccc;
+    border-radius: 10px; /* Curved borders for each course */
+    background-color: #fff; /* White background for each course */
+   }
+   
+   .course-search-form-container .course-item h3,
+   .course-search-form-container .course-item p {
+    margin-bottom: 10px; /* Space between course details */
+   }
+   
+   .course-search-form-container .back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #6c757d; /* Different color for back button */
+   }
+   
+   .course-search-form-container .back-button:hover {
+    background-color: #5a6268; /* Different hover color for back button */
+   }
+   

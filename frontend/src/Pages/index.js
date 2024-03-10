@@ -1,0 +1,12 @@
+export {default as StudentLogin} from "./StudentLogin/index";
+export {default as TutorLogin} from "./TutorLogin/index";
+export {default as Landing} from "./Landing/index";
+export {default as StuDashboard} from "./StuDashboard/index";
+export {default as BuyCourse} from "./BuyCourse/index";
+export {default as TutorDashboard} from "./TutorDashboard/index";
+export {default as Flashcards} from "./Flashcards/index";
+export {default as AddCourse} from "./AddCourse/index";
+export {default as CourseDetails} from "./CourseDetails/index";
+export {default as CreateFlashCards} from "./CreateFlashCards/index";
+export {default as StuReg} from "./StuReg/index";
+export {default as TutorReg} from "./TutorReg/index";

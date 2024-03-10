@@ -1,0 +1,32 @@
+/* Landing.css */
+
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f0f0f0; /* Light background color */
+    font-family: Arial, sans-serif; /* Example font */
+   }
+   
+   .landing-container h2 {
+    margin-bottom: 20px; /* Space between h2 and buttons */
+   }
+   
+   .landing-container button {
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0; /* Vertical spacing between buttons */
+    border-radius: 25px; /* Curved buttons */
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+   }
+   
+   .landing-container button:hover {
+    background-color: #0056b3; /* Button hover color */
+   }
+   

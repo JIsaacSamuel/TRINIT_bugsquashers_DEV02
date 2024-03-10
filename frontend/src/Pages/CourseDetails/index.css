@@ -1,0 +1,72 @@
+/* CourseDetails.css */
+
+.course-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px; /* Adjust based on your design needs */
+    margin: 0 auto; /* Center the container */
+    padding: 20px;
+    background-color: #f0f0f0; /* Light background color */
+    font-family: Arial, sans-serif; /* Example font */
+   }
+   
+   .course-details-container h2 {
+    margin-bottom: 20px; /* Space between the title and the list */
+   }
+   
+   .course-details-container .student-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px; /* Space between student items */
+    border: 1px solid #ccc;
+    border-radius: 10px; /* Curved borders for each student item */
+    background-color: #fff; /* White background for each student item */
+   }
+   
+   .course-details-container .student-item p {
+    margin-bottom: 10px; /* Space between student name and button */
+   }
+   
+   .course-details-container button {
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px; /* Rounded buttons */
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px; /* Space between buttons */
+   }
+   
+   .course-details-container button:hover {
+    background-color: #0056b3; /* Button hover color */
+   }
+   
+   .course-details-container button[disabled] {
+    background-color: #6c757d; /* Disabled button color */
+    cursor: not-allowed;
+   }
+   
+   .course-details-container button[disabled]:hover {
+    background-color: #6c757d; /* Disabled button hover color */
+   }
+   
+   .course-details-container .back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #6c757d; /* Different color for back button */
+   }
+   
+   .course-details-container .back-button:hover {
+    background-color: #5a6268; /* Different hover color for back button */
+   }
+   

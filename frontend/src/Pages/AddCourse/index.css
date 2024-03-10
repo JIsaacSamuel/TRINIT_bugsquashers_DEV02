@@ -1,0 +1,75 @@
+/* AddCourseForm.css */
+
+.add-course-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px; /* Adjust based on your design needs */
+    margin: 0 auto; /* Center the form */
+    padding: 20px;
+    background-color: #f0f0f0; /* Light background color */
+    font-family: Arial, sans-serif; /* Example font */
+   }
+   
+   .add-course-form-container h2 {
+    margin-bottom: 20px; /* Space between the title and the form */
+   }
+   
+   .add-course-form-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px; /* Curved borders for the form */
+    background-color: #fff; /* White background for the form */
+   }
+   
+   .add-course-form-container label {
+    display: block;
+    margin-bottom: 10px; /* Space between labels */
+   }
+   
+   .add-course-form-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px; /* Space between inputs */
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Rounded corners for inputs */
+   }
+   
+   .add-course-form-container button {
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px; /* Rounded buttons */
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px; /* Space between buttons */
+   }
+   
+   .add-course-form-container button:hover {
+    background-color: #0056b3; /* Button hover color */
+   }
+   
+   .add-course-form-container button[type="submit"] {
+    margin-bottom: 20px; /* Space between submit button and back button */
+   }
+   
+   .add-course-form-container .back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #6c757d; /* Different color for back button */
+   }
+   
+   .add-course-form-container .back-button:hover {
+    background-color: #5a6268; /* Different hover color for back button */
+   }
+   

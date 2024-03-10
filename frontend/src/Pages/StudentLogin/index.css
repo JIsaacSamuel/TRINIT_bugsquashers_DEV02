@@ -1,0 +1,61 @@
+/* LoginForm.css */
+
+.login-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px; /* Adjust based on your design needs */
+    margin: 0 auto; /* Center the form */
+    padding: 20px;
+    background-color: #f0f0f0; /* Light background color */
+    font-family: Arial, sans-serif; /* Example font */
+   }
+   
+   .login-form-container p {
+    margin-bottom: 20px; /* Space between the title and the form */
+   }
+   
+   .login-form-container label {
+    display: block;
+    margin-bottom: 10px; /* Space between labels */
+   }
+   
+   .login-form-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px; /* Space between inputs */
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Rounded corners for inputs */
+   }
+   
+   .login-form-container button {
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px; /* Rounded buttons */
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px; /* Space between buttons */
+   }
+   
+   .login-form-container button:hover {
+    background-color: #0056b3; /* Button hover color */
+   }
+   
+   .login-form-container button[type="button"] {
+    background-color: #6c757d; /* Different color for toggle button */
+   }
+   
+   .login-form-container button[type="button"]:hover {
+    background-color: #5a6268; /* Different hover color for toggle button */
+   }
+   
+   .login-form-container p.error-message {
+    color: red; /* Error message color */
+    margin-bottom: 20px; /* Space between error message and form */
+   }
+   
